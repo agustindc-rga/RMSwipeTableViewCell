@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+//! Project version number for RMSwipeTableViewCell.
+FOUNDATION_EXPORT double RMSwipeTableViewCellVersionNumber;
+
+//! Project version string for RMSwipeTableViewCell.
+FOUNDATION_EXPORT const unsigned char RMSwipeTableViewCellVersionString[];
+
 typedef NS_ENUM(NSUInteger, RMSwipeTableViewCellRevealDirection) {
     RMSwipeTableViewCellRevealDirectionNone = -1, // disables panning
     RMSwipeTableViewCellRevealDirectionBoth = 0,
